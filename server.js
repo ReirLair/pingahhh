@@ -62,7 +62,7 @@ async function pingUrls() {
 }
 
 // Ping every 5 minutes
-setInterval(pingUrls, 300000);
+setInterval(pingUrls, 3000000);
 
 // Immediately ping when server starts
 pingUrls();
