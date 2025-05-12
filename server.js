@@ -6,8 +6,8 @@ const port = process.env.PORT || 3000;
 
 // Your URLs
 const urls = [
-  'https://nexusv1-v.hf.space',      // your main website
-  'https://xxpingah.onrender.com'   // your deployed server URL
+  'https://txtorg-uplg.hf.space',      // your main website
+  'https://xxohpingah.onrender.com'   // your deployed server URL
 ];
 
 // Special API to fetch
