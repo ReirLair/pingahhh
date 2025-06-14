@@ -6,12 +6,12 @@ const port = process.env.PORT || 3000;
 
 // Your URLs
 const urls = [
-  'https://txtorg-uplg.hf.space',      // your main website
-  'https://xxohpingah.onrender.com'   // your deployed server URL
+  'https://proxyxsitexx.onrender.com',      // your main website
+  'https://xxohpingahx.onrender.com'   // your deployed server URL
 ];
 
 // Special API to fetch
-const specialApi = 'https://nexusv1-v.hf.space/who/Reiker';
+const specialApi = 'https://proxyxsitexx.onrender.com/dashboard';
 
 // Fly.io style headers for keeping alive
 const headers = {
@@ -62,7 +62,7 @@ async function pingUrls() {
 }
 
 // Ping every 5 minutes
-setInterval(pingUrls, 3000000);
+setInterval(pingUrls, 2800000);
 
 // Immediately ping when server starts
 pingUrls();
